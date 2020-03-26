@@ -1,0 +1,197 @@
+@import "../common/variables";
+@import "../common/mixins";
+
+// 这个名字可以覆盖 variables的名字
+@COSTOM-ICONS: 'luck-icons';
+
+// 定义一个字体库
+@font-face {
+  font-family:@COSTOM-ICONS;
+  src: url('//at.alicdn.com/t/font_87685_gukexhd94cmcxr.ttf') format('truetype');
+}
+
+// 通配符样式 定义 luck-icon-XXX  (xxx字体名称)
+[class^="@{css-prefix}-icons-"]:before, [class*=" @{css-prefix}-icons-"]:before {
+  font-family:@COSTOM-ICONS;
+  font-size: inherit;
+  display: inline-block;
+}
+
+.@{css-prefix} {
+  &-icons-weixin:before {
+    content: '\e60b';
+  }
+  &-icons-search:before {
+    content: '\e7A9';
+    color: #FF685E;
+  }
+  &-icons-preview:before {
+    content: '\e7AC';
+    color: #8B78E2;
+  }
+  &-icons-scrolltab:before {
+    content: '\e7AE';
+    color: #FF685E;
+  }
+  &-icons-scrollnav:before {
+    content: '\e7AD';
+    color: #FF8D20;
+  }
+  &-icons-datetime:before {
+    content: '\e790';
+    color: #3CCD1C;
+  }
+  &-icons-me:before {
+    content: '\e610';
+  }
+  &-icons-contact:before {
+    content: '\e60c';
+  }
+  &-icons-discover:before {
+    content: '\e611';
+  }
+  &-icons-phone:before {
+    content: '\e60e';
+    color: #A6A5A5;
+    font-size: .38rem;
+  }
+  &-icons-tel:before {
+    content: '\e616';
+    color: #A6A5A5;
+    font-size: .38rem;
+  }
+  &-icons-like:before {
+    content: '\e60d';
+    color: #A6A5A5;
+    font-size: .38rem;
+  }
+  &-icons-lightbox:before {
+    content: '\e792';
+    color: #FF8D20;
+  }
+  &-icons-order:before {
+    content: '\e60f';
+    font-size: .38rem;
+    color: #A6A5A5;
+  }
+  &-icons-button:before {
+    content: '\e602';
+    color: #FF685E;
+  }
+  &-icons-sendcode:before {
+    content: '\e60a';
+    color: #8B78E2;
+  }
+  &-icons-dialog:before {
+    content: '\e603';
+    color: #3CC51E;
+  }
+  &-icons-checklist:before {
+    content: '\e7a6';
+    color: #FF8D20;
+  }
+  &-icons-keyboard:before {
+    content: '\e613';
+    color: #FC746C;
+  }
+  &-icons-step:before {
+    content: '\e7A1';
+    color: #3CCD1C;
+  }
+  &-icons-lazyimg:before {
+    content: '\e772';
+    color: #3CCD1C;
+  }
+  &-icons-countup:before {
+    content: '\e77c';
+    color: #3CCD1C;
+  }
+  &-icons-rollnotice:before {
+    content: '\e782';
+    color: #8B78E2;
+  }
+  &-icons-accordion:before {
+    content: '\e78B';
+    color: #8B78E2;
+  }
+  &-icons-backtop:before {
+    content: '\e789';
+    color: #FC746C;
+  }
+  &-icons-rate:before {
+    content: '\e76e';
+    color: #FC746C;
+  }
+  &-icons-timeline:before {
+    content: '\E79F';
+    color: #FC746C;
+  }
+  &-icons-countdown:before {
+    content: '\e774';
+    color: #FF8D20;
+  }
+  &-icons-popup:before {
+    content: '\e777';
+    color: #8B78E2;
+  }
+  &-icons-cell:before {
+    content: '\e600';
+    color: #FC746C;
+  }
+  &-icons-tabs:before {
+    content: '\e607';
+    color: #FF8D20;
+  }
+  &-icons-list:before {
+    content: '\e605';
+    color: #FF8D20;
+  }
+  &-icons-actionsheet:before {
+    content: '\e601';
+    color: #3CCD1C;
+  }
+  &-icons-progressbar:before {
+    content: '\e612';
+    color: #FF8D20;
+  }
+  &-icons-input:before {
+    content: '\e77F';
+    color: #FF8D20;
+  }
+  &-icons-icons:before {
+    content: '\e604';
+    color: #8B78E2;
+  }
+  &-icons-tabbar:before {
+    content: '\e606';
+    color: #3CC51E;
+  }
+  &-icons-badge:before {
+    content: '\e608';
+    color: #EF4F4F;
+  }
+  &-icons-grids:before {
+    content: '\e609';
+    color: #8B78E2;
+  }
+  &-icons-slider:before {
+    content: '\e614';
+    color: #8B78E2;
+  }
+  &-icons-spinner:before {
+    content: '\e615';
+    color: #FF8D20;
+  }
+  &-icons-cityselect:before {
+    content: '\e617';
+    color: #FF685E;
+  }
+  &-icons-flexbox:before {
+    content: '\e784';
+    color: #FF685E;
+  }
+  &-icons-cr:before {
+    content: '\e787';
+    color: #3CC51E;
+  }
+}

@@ -1,0 +1,52 @@
+/**
+ * Component:	Variables
+ * Description:	Define all variables
+*/
+.luck-view {
+  margin: 0 auto;
+  max-width: 750px;
+  min-width: 300px;
+}
+.luck-view:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.9rem;
+}
+.luck-view:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+}
+.luck-flexview {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 750px;
+  min-width: 300px;
+}
+.luck-scrollview {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  margin-bottom: -1px;
+}
+.luck-scrollview:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+}
+.ios .luck-scrollview {
+  margin-top: 1px;
+}
+.hairline .luck-scrollview {
+  margin-top: 0.5px;
+}
+/*# sourceMappingURL=layout.css.map */

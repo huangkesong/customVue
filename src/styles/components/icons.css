@@ -1,0 +1,191 @@
+/**
+ * Component:	Variables
+ * Description:	Define all variables
+*/
+@font-face {
+  font-family: 'luck-icons';
+  src: url('//at.alicdn.com/t/font_87685_gukexhd94cmcxr.ttf') format('truetype');
+}
+[class^="luck-icons-"]:before,
+[class*=" luck-icons-"]:before {
+  font-family: 'luck-icons';
+  font-size: inherit;
+  display: inline-block;
+}
+.luck-icons-weixin:before {
+  content: '\e60b';
+}
+.luck-icons-search:before {
+  content: '\e7A9';
+  color: #FF685E;
+}
+.luck-icons-preview:before {
+  content: '\e7AC';
+  color: #8B78E2;
+}
+.luck-icons-scrolltab:before {
+  content: '\e7AE';
+  color: #FF685E;
+}
+.luck-icons-scrollnav:before {
+  content: '\e7AD';
+  color: #FF8D20;
+}
+.luck-icons-datetime:before {
+  content: '\e790';
+  color: #3CCD1C;
+}
+.luck-icons-me:before {
+  content: '\e610';
+}
+.luck-icons-contact:before {
+  content: '\e60c';
+}
+.luck-icons-discover:before {
+  content: '\e611';
+}
+.luck-icons-phone:before {
+  content: '\e60e';
+  color: #A6A5A5;
+  font-size: 0.38rem;
+}
+.luck-icons-tel:before {
+  content: '\e616';
+  color: #A6A5A5;
+  font-size: 0.38rem;
+}
+.luck-icons-like:before {
+  content: '\e60d';
+  color: #A6A5A5;
+  font-size: 0.38rem;
+}
+.luck-icons-lightbox:before {
+  content: '\e792';
+  color: #FF8D20;
+}
+.luck-icons-order:before {
+  content: '\e60f';
+  font-size: 0.38rem;
+  color: #A6A5A5;
+}
+.luck-icons-button:before {
+  content: '\e602';
+  color: #FF685E;
+}
+.luck-icons-sendcode:before {
+  content: '\e60a';
+  color: #8B78E2;
+}
+.luck-icons-dialog:before {
+  content: '\e603';
+  color: #3CC51E;
+}
+.luck-icons-checklist:before {
+  content: '\e7a6';
+  color: #FF8D20;
+}
+.luck-icons-keyboard:before {
+  content: '\e613';
+  color: #FC746C;
+}
+.luck-icons-step:before {
+  content: '\e7A1';
+  color: #3CCD1C;
+}
+.luck-icons-lazyimg:before {
+  content: '\e772';
+  color: #3CCD1C;
+}
+.luck-icons-countup:before {
+  content: '\e77c';
+  color: #3CCD1C;
+}
+.luck-icons-rollnotice:before {
+  content: '\e782';
+  color: #8B78E2;
+}
+.luck-icons-accordion:before {
+  content: '\e78B';
+  color: #8B78E2;
+}
+.luck-icons-backtop:before {
+  content: '\e789';
+  color: #FC746C;
+}
+.luck-icons-rate:before {
+  content: '\e76e';
+  color: #FC746C;
+}
+.luck-icons-timeline:before {
+  content: '\E79F';
+  color: #FC746C;
+}
+.luck-icons-countdown:before {
+  content: '\e774';
+  color: #FF8D20;
+}
+.luck-icons-popup:before {
+  content: '\e777';
+  color: #8B78E2;
+}
+.luck-icons-cell:before {
+  content: '\e600';
+  color: #FC746C;
+}
+.luck-icons-tabs:before {
+  content: '\e607';
+  color: #FF8D20;
+}
+.luck-icons-list:before {
+  content: '\e605';
+  color: #FF8D20;
+}
+.luck-icons-actionsheet:before {
+  content: '\e601';
+  color: #3CCD1C;
+}
+.luck-icons-progressbar:before {
+  content: '\e612';
+  color: #FF8D20;
+}
+.luck-icons-input:before {
+  content: '\e77F';
+  color: #FF8D20;
+}
+.luck-icons-icons:before {
+  content: '\e604';
+  color: #8B78E2;
+}
+.luck-icons-tabbar:before {
+  content: '\e606';
+  color: #3CC51E;
+}
+.luck-icons-badge:before {
+  content: '\e608';
+  color: #EF4F4F;
+}
+.luck-icons-grids:before {
+  content: '\e609';
+  color: #8B78E2;
+}
+.luck-icons-slider:before {
+  content: '\e614';
+  color: #8B78E2;
+}
+.luck-icons-spinner:before {
+  content: '\e615';
+  color: #FF8D20;
+}
+.luck-icons-cityselect:before {
+  content: '\e617';
+  color: #FF685E;
+}
+.luck-icons-flexbox:before {
+  content: '\e784';
+  color: #FF685E;
+}
+.luck-icons-cr:before {
+  content: '\e787';
+  color: #3CC51E;
+}
+/*# sourceMappingURL=icons.css.map */

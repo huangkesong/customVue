@@ -1,0 +1,76 @@
+/**
+ * Component:	Variables
+ * Description:	Define all variables
+*/
+@keyframes yd-kf-opacity-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.luck-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.luck-slider-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0px, 0px, 0px);
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  transition-property: transform;
+}
+.luck-slider-wrapper-vertical {
+  flex-direction: column;
+}
+.luck-slider-item {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+.luck-slider-item a {
+  display: block;
+}
+.luck-slider-item img {
+  width: 100%;
+  display: block;
+}
+.luck-slider-pagination {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0.1rem;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  animation: yd-kf-opacity-in 0.3s linear 0.4s forwards;
+}
+.luck-slider-pagination-vertical {
+  width: 0;
+  height: 100%;
+  flex-direction: column;
+  bottom: 0;
+  left: auto;
+  right: 0.1rem;
+  justify-content: center;
+}
+.luck-slider-pagination-item {
+  margin: 0.05rem;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 100%;
+}
+.luck-slider-pagination-item-active {
+  width: 14px;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=slider.css.map */

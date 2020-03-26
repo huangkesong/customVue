@@ -1,0 +1,67 @@
+@import '../common/variables';
+
+// 公共样式
+.btn-variant() {
+  text-align: center;
+  position: relative;
+  border: none;
+  pointer-events: auto;
+  user-select: none;
+}
+
+.@{css-prefix} {
+  &-button {
+    padding: 0 @body-padding-vertical;
+  }
+  &-btn {
+    &-mini,&-small{
+      padding: 0 .2rem;
+    }
+    // small公共style
+    &-mini {
+      .btn-variant();
+      height: @btn-mini-height;
+      font-size: @btn-mini-fontsize;
+    }
+    // small公共style
+    &-small {
+      .btn-variant();
+      height: @btn-small-height;
+      font-size: @btn-small-fontsize;
+    }
+    // block公共style
+    &-block {
+      .btn-variant();
+      display: block;
+      width: 100%;
+      font-size: @btn-block-fontsize;
+      height: @btn-block-height;
+      margin-top: @btn-block-margin-top;
+      border-radius: @btn-block-radius;
+    }
+    &-primary,&-warning,&-danger,&-disabled{
+      color: #fff;
+    }
+    // defalut
+    &-primary {
+      background: #3CCD1C;
+    }
+    // 警告
+    &-warning {
+      background: #f00;
+    }
+    // 危险
+    &-danger {
+      background: #ffb400;
+    }
+    // 空洞
+    &-hollow {
+      color: #454545;
+      background: #fff;
+    }
+    // 禁用
+    &-disabled {
+      background: #ccc;
+    }
+  }
+}
