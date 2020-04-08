@@ -1,2 +1,2 @@
 # customVue
-仿的ydui的vue组件库
+仿写ui的vue组件库
